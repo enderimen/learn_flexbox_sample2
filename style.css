@@ -1,0 +1,74 @@
+/*
+	Ender imen 
+	29.01.2018
+*/
+
+body{
+	font-family: monospace;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	background-color: #fff9c4;
+}
+
+.header h1{
+	text-align: center;
+	color: #f50057;
+	margin: 5% auto;
+}
+
+.timeline{
+	width: 500px;
+	height: 200px;
+	margin: 10px auto;
+	border-radius: 5px;
+	padding: 20px;
+	background-color: #fff;
+}
+
+.card{
+	display: flex;
+	align-items: center;
+	background-color: #f48fb1;
+	padding: 10px;
+	border-radius: 5px;
+	margin-top: 10px;
+	box-shadow: 0 2px 2px gray;
+}
+
+.card:hover{
+	transition: all 0.3s ease-in;
+	background-color: #f06292;
+	cursor: pointer;
+	color: #fff;
+}
+
+.svg{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: #ec407a; 
+}
+
+.svg i{
+	font-size: 25px;
+	color: #fff;
+}
+
+.content{
+	flex-grow: 1;
+	padding-left: 5px;
+	padding-right: 5px; 
+}
+
+.arrow{
+	width: 30px;
+	height: 30px;
+}
+
+.arrow i{
+	color: #fff;
+}
