@@ -51,6 +51,7 @@ body{
 	height: 50px;
 	border-radius: 50%;
 	background-color: #ec407a; 
+	flex-shrink: 0; /*fixed size*/
 }
 
 .svg i{
@@ -67,6 +68,7 @@ body{
 .arrow{
 	width: 30px;
 	height: 30px;
+	flex-shrink: 0; /*fixed size*/
 }
 
 .arrow i{
